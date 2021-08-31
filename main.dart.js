@@ -52955,7 +52955,7 @@ if(r.fr==null)r.dy=s
 else if(s.af.cx===C.a8)r.dy=s
 else r.fr=s
 r.f_(0)
-return new U.qT(P.an(["/myProfile",new F.a3q()],t.N,t.hw),"/myProfile",new F.a3r(),"Tappy",X.a_A(C.a7),!1,null)}}
+return new U.qT(P.an(["/myProfile",new F.a3q()],t.N,t.hw),"/myProfile",new F.a3r(),"MyTapp",X.a_A(C.a7),!1,null)}}
 F.a3q.prototype={
 $1:function(a){return V.acj("YE82BhHGxLMlgTOvXdVNf7FzDeS2")},
 $S:101}
