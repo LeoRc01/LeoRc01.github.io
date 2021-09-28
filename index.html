@@ -28,7 +28,19 @@
   <link rel="manifest" href="manifest.json">
 </head>
 
-<body>
+<style>
+  .center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+  }
+</style>
+
+<body style="background-color:black;">
+  <img src="logo/logo.png" width="200" height="auto" class="center">
   <!-- This script installs service_worker.js to provide PWA functionality to
        application. For more information, see:
        https://developers.google.com/web/fundamentals/primers/service-workers -->
@@ -59,7 +71,7 @@
   </script>
 
   <script>
-    var serviceWorkerVersion = '3442525714';
+    var serviceWorkerVersion = '2262855164';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
